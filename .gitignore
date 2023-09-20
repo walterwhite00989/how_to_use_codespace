@@ -1,0 +1,65 @@
+# Ignore compiled Java bytecode files
+*.class
+
+# Ignore compiled Java archive files
+*.jar
+
+# Ignore compiled Java war files
+*.war
+
+# Ignore compiled Java ear files
+*.ear
+
+# Ignore compiled Java nar files
+*.nar
+
+# Ignore HotSpot Virtual Machine error log files
+hs_err_pid*
+
+# Ignore Maven build artifacts
+target/
+
+# Ignore Maven pom.xml backup files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore Gradle build artifacts
+build/
+bin/
+
+# Ignore Gradle build cache
+.gradle
+
+# Ignore IntelliJ IDEA project files
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+# Ignore Eclipse project files
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+# Ignore IDE-generated project files
+.vscode/
