@@ -18,8 +18,8 @@ def calculate_power(base, exponent):
 def main():
   """Prompts the user for two numbers and prints the power of those numbers."""
 
-  base = float(input("Enter the base number: "))
-  exponent = float(input("Enter the exponent: "))
+  base = int(input("Enter the base number: "))
+  exponent = int(input("Enter the exponent: "))
 
   power = calculate_power(base, exponent)
   print(f"The power of {base} raised to {exponent} is {power}")
